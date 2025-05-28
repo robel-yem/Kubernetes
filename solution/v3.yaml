@@ -1,6 +1,8 @@
 apiVersion: v1
 kind: Service
 metadata:
+  annotations:
+    author: "Robel Yemane-UGR/0067/13"
   name: mywebapp
   labels:
     app: mywebapp
