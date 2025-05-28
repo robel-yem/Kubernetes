@@ -1,6 +1,8 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  annotations:
+    submitted-by: robel-yemane-ugr0067
   name: mydeployment
   labels:
     app: mywebapp
